@@ -58,16 +58,17 @@ Final output dataset: EMS_FEATURES_FINAL.csv
 ---
 
 ## **Step 5 — Machine Learning**
-**File:** `Model.ipynb`
+**File:** `Model_Final.ipynb`
 
 This notebook:
 - Loads `EMS_FEATURES_FINAL.csv`
 - Splits data into train/test sets  
-- Trains four models:
+- Trains five models:
   - Logistic Regression  
   - SVM  
   - Random Forest  
-  - LDA classifier  
+  - LDA classifier
+  - XGBoost  
 - Evaluates models using accuracy, confusion matrix, and decision boundary plots  
 
 Final printed results include:
